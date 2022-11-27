@@ -1,0 +1,1 @@
+cout<<"Deleted value: "<<Delete(H, 7)<<endl;
