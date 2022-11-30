@@ -4,6 +4,7 @@
         "iostream": "cpp",
         "new": "cpp",
         "bitset": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "random": "cpp"
     }
 }
