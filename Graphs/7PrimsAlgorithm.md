@@ -12,4 +12,3 @@ or O(n^2)
 ii) if using heap data structure, then it will be O(ElogV)
 or O(nlogn)
 
-(REWATCH 11. Prims program- its complicated, take ss of the arrays and stuff)(REWATCH 11. Prims program- its complicated, take ss of the arrays and stuff)

@@ -1,8 +1,8 @@
 ## Selection sort
 * Comparison based sorting
-
+```
 A[8][6][3][2][5][4]
-
+```
 * We select a position (let it be index 0 in this case), find out minimum element.
   -We will take two pointers j and k
   -keep k at selected position (here 0) and iterate j through the array

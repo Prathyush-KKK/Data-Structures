@@ -16,36 +16,40 @@ In a linked list, no shifting is required.
 It takes minimum time O(n) and maximum O(n^2)
 
 ## Example
-
+```
 [A] -> [8][5][7][3][2]
-
+```
 1. Insert 5
 Take out the ith element and insert it at the correct position.
+```
  [8][ ][7][3][2]
         5
  [5][8][7][3][2]      1st pass
-
+```
 2. Insert 7
+```
  [5][8][ ][3][2]
         7
  [5][7][8][3][2]      2nd pass
-
-3. Insert 3
+```
+1. Insert 3
+```
  [5][7][8][ ][2]
         3
  [3][5][7][8][2]      3rd pass
-
-4. Insert 2
+```
+1. Insert 2
+```
  [3][5][7][8][ ]
         2
  [2][3][5][7][8]      4th pass
-
+```
 
 No. of passes -> n-1 passes
 No. of comparisions -> 1+2+3+4+...+n-1 = n(n-1)/2 = O(n^2)
 No. of swaps -> 1+2+3+4+...+n-1 = n(n-1)/2 = O(n^2)
 
-NOTE: We wont get any useful info from insertion sort unlike bubble where we got the largest element at each pass.
+NOTE: We do not get any useful info from insertion sort unlike bubble where we got the largest element at each pass.
       Insertion sort is designed for linked lists as it is more compatible and easy to work with.
 
     

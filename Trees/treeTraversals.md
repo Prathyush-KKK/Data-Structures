@@ -1,11 +1,11 @@
 ## Tree traversals
 For binary trees:
-
+```
 a)        A                   b)    A                   c)      A
         /  \                       /                              \  
         B   C                    B                                  B
 
-
+```
 
 
 
@@ -51,8 +51,8 @@ Q)          A
 * Preorder: A,(B,D,E),(C,F,G)
         = A,B,D,E,C,F,G
 
-* Inorder: A,(D,B,E),(F,C,G)
-        = A,D,B,E,F,C,G
+* Inorder: (D,B,E),A,(F,C,G)
+        = D,B,E,A,F,C,G
 
 * Postorder: (D,E,B), (F,G,C), A
         = D,E,B,F,G,C,A

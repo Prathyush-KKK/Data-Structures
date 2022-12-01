@@ -4,7 +4,8 @@ The tree cannot have more than n degree but can have less than n.
 
 ## strict n-ary trees
 Every node can either have 0 children or exactly n children
-eg: https://cdn.discordapp.com/attachments/763862219649450025/1019539251215466516/unknown.png?size=4096
+eg:![]    5       20
+```(https://cdn.discordapp.com/attachments/763862219649450025/1019539251215466516/unknown.png?size=4096)
 
 
 ## Formulas

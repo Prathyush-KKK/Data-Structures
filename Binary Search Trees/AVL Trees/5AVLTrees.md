@@ -7,5 +7,3 @@ Are height balanced binary search trees.
 - bf = |hl-hr| <= 1 node is balanced
 - if bf = |hl-hr| > 1, node is imbalanced
 
-
-eg: 

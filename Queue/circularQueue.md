@@ -1,3 +1,7 @@
+## Circular Queue
+* Avoids the wastage of space in queues.
+* Circular Queue works by the process of circular increment i.e. when we try to increment the pointer and we reach the end of the queue, we start from the beginning of the queue.
+
 ## Initialize
 array of n elements present
 front and rear both point to 0 element
@@ -12,6 +16,11 @@ next move rear to the next position and insert
 Cannot insert at position where front is pointing otherwise it will show that queue is empty
 So when the pointers reach last element, then the pointers should shift to 0
 
+* check if the queue is full
+* for the first element, set value of FRONT to 0
+* circularly increase the REAR index by 1 (i.e. if the rear reaches the end, next it would be at the start of the queue)
+* add the new element in the position pointed to by REAR
+
 We can achieve such operation using mod operation
 Rear = (rear + 1)%size
 if array is of size 7, 
@@ -25,3 +34,8 @@ if array is of size 7,
 7  |  (7+1)%7 | 1
 
 
+## To delete
+* check if the queue is empty
+* return the value pointed by FRONT
+* circularly increase the FRONT index by 1
+* for the last element, reset the values of FRONT and REAR to -1

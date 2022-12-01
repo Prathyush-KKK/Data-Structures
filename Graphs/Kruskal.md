@@ -2,7 +2,7 @@
 * Kruskal's method is a greedy algorithm that finds a minimum spanning tree for a connected weighted graph.
 * Steps:
   i) Take smallest edge 
-  ii) Then next take the second smallest edge and continue it like that until you reach a loop. If there is a cycle forming, ignore that minimum and take the next minimum.
+  ii) Then next take the second smallest edge and continue taking disjoined/joined edges of minimum costs until you reach a loop. If there is a cycle forming, ignore that minimum and take the next minimum.
 * Complexity is- V-1*E or O(n^2)
 * If we are taking heap, then complexity is O(ElogV) or O(nlogn)
 
@@ -20,9 +20,7 @@
   ii) Connect the smaller set to the parent of this new set.
   iii) We need to reorder the set array to make the parent of the new set as the parent of the smaller set. {update index with new parent element}
   
-  https://cdn.discordapp.com/attachments/763862219649450025/1039503648205570099/image.png
-  https://cdn.discordapp.com/attachments/763862219649450025/1039504173881901096/image.png
-  https://cdn.discordapp.com/attachments/763862219649450025/1039504596382519336/image.png
-  https://cdn.discordapp.com/attachments/763862219649450025/1039505231379173447/image.png
-
-(See kruskals program first half also its complicated 15. Kruskal's Problem)
+  ![](https://cdn.discordapp.com/attachments/763862219649450025/1039503648205570099/image.png)
+  ![](https://cdn.discordapp.com/attachments/763862219649450025/1039504173881901096/image.png)
+  ![](https://cdn.discordapp.com/attachments/763862219649450025/1039504596382519336/image.png)
+  ![](https://cdn.discordapp.com/attachments/763862219649450025/1039505231379173447/image.png)

@@ -5,7 +5,7 @@ G = (V, E)
 V- set of vertices
 E- set of edges
 
-  https://media.discordapp.net/attachments/763862219649450025/1039134237590290563/image.png?width=615&height=393
+  ![](https://media.discordapp.net/attachments/763862219649450025/1039134237590290563/image.png?width=615&height=393)
 
 * No self loop and parallel edges- **SIMPLE GRAPH**
 * No directed edges- **UNDIRECTED GRAPH**  (if no direction shown it points to both sides)

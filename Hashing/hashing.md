@@ -22,7 +22,7 @@ Similar to count sort
 
 ## Theory
 * We use the technique of relation and functions
-* https://cdn.discordapp.com/attachments/763862219649450025/1046682494805749790/image.png
+* ![](https://cdn.discordapp.com/attachments/763862219649450025/1046682494805749790/image.png)
 * function formula: h(x) = x
 * Drawback- Requires high space complexity
 * Ideal hash function is one-one

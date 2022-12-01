@@ -12,7 +12,7 @@ for tree- along single path, it depends on height of the tree- O(logn)
 ## Space complexity
 
 eg:
-
+```
 swap(x,y){
 int t;
 t = x;  1
@@ -50,3 +50,4 @@ fun1(){						O(n)
 		...     n+1
 	}
 }
+```

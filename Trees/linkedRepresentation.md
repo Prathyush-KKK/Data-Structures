@@ -1,4 +1,5 @@
 ### Linked Representation of Tree
+```
                     A
                   /     \
                 B          C
@@ -13,7 +14,7 @@
 
                             NODE
                     [Lchild][data][Rchild]
-
+```
 
 ## Formulas 
 * If there are n nodes, 

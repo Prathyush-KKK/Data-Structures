@@ -17,8 +17,7 @@ NOTE: Undirected graph is symmetric, so we can use only half of the matrix.
 **NOTE: if cost is given at each edge, we input the cost of edge instead of 1 in adjacency matrix (now called cost adjacency matrix) and if its a list, we add another element to the link data structure to store the weight of the edge (now called cost adjacency list).**
 
 
-https://cdn.discordapp.com/attachments/763862219649450025/1039136996448284733/image.png
-
+![](https://cdn.discordapp.com/attachments/763862219649450025/1039136996448284733/image.png)
 
 ## Using compact list
   i) Usage of single array
@@ -31,7 +30,7 @@ https://cdn.discordapp.com/attachments/763862219649450025/1039136996448284733/im
   vii) Now we fill the V+1th location we left free with the index of the last filled element in array.
 
 See diagram to understand better.
-https://cdn.discordapp.com/attachments/763862219649450025/1039139272550264852/image.png
+![](https://cdn.discordapp.com/attachments/763862219649450025/1039139272550264852/image.png)
 
 * Space consumed by compact list is linear O(n)
 

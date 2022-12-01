@@ -1,10 +1,11 @@
 1. Representation of Data
 2. Operation on Data
 
-for eg: integer is stores as a single value in a bit
+for eg: integer is stored as a single value in a bit
+```
 [sign][int][int][int][][][][][][][][][][][][]
 1 bit          1  5  -  b  i  t  s 
-
+```
 int x; 
 x is the data type
 + - * / % ++ -- are the operations on data 

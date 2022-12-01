@@ -3,7 +3,7 @@ essentially find the min and max no. of nodes one can make with a given height
 for eg: Tree of height 2
 min nodes- 5
 max nodes- 7
-https://cdn.discordapp.com/attachments/763862219649450025/1018886253002891324/unknown.png?size=4096
+![](https://cdn.discordapp.com/attachments/763862219649450025/1018886253002891324/unknown.png?size=4096)
 
 
 ### Formula:

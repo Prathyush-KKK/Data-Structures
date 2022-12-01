@@ -10,5 +10,5 @@
 
 * The tree we get here is called DFS spanning tree
 * and the dotted lines we get is called back edge (connects back to already visited vertices.)
-https://cdn.discordapp.com/attachments/763862219649450025/1039183192013422632/image.png 
+![](https://cdn.discordapp.com/attachments/763862219649450025/1039183192013422632/image.png )
 

@@ -2,7 +2,7 @@
 * Follow normal hashing technique
 * If there is an overlap of elements in the same index then just shift the element to the next index.
 * While shifting the element count the number of indexes it moves and this is stored as probes.
-https://cdn.discordapp.com/attachments/763862219649450025/1046705365330427924/image.png
+![](https://cdn.discordapp.com/attachments/763862219649450025/1046705365330427924/image.png)
 * h'(x) = (h(x)+f(i))%10 where f(i) = i
 
 ## Searching

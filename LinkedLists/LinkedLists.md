@@ -31,6 +31,7 @@ NOTE: For array inside heap: int *p = new int[5];
         [data][next]
             node
 
+```
 * struct Node {
     int data;                           2 or 4 bytes
     struct Node *next;                  2 or 4 bytes
@@ -42,6 +43,7 @@ NOTE: For array inside heap: int *p = new int[5];
     p->data = 10;
     p->next = 0;                 or p = NULL
 }
+```
 
 each node occupies 2 or 4 bytes so if it takes 4 bytes, the node takes addresses
 200, 201, 202 and 204 (if 200 is the first address)
@@ -53,10 +55,12 @@ each node occupies 2 or 4 bytes so if it takes 4 bytes, the node takes addresses
 ## Displaying Linked List
 Let there already be a linked list having pointer p pointing to it.
 first
+```
 [200]
     \->[8|210]->[3|270]->[7|300]->[12|350]->[9|0]
-addr:   200       210      270      300      350      
-
+addr:   200       210      270      300      350     
+``` 
+```
 display(struct Node *p)
 struct Node *p = first;
 while(p!=0){
@@ -65,25 +69,26 @@ p=p->next;               {p will move to next node until reaching null}
 }
 
 display(first);
-
+```
 
 ## Inserting a node in a linked list
-
+```
 0         1      2      3      4       5
     [5][]->[3][]->[9][]->[7][]->[6][/]
        1     2      3      4      5
-
+```
 i) Can insert at position first node
 * Create a new node 
 * Initialize node with data
 * point new node to first node
 * Move first node to new node
+```
  insertfirst(int x):
     Node *t = new Node;
     t-> data = x;
     t->next = first;
     first = t;
-
+```
 Complexity: O(1)
 
 
@@ -103,7 +108,7 @@ Lets insert at position 4
 * point new node to p->next
 * NewNode->next = lastNode
 * p->next = NewNode
-
+```
 insertMiddle(int pos, int n){
     Node *t = new Node;
     t-> data = n;
@@ -114,7 +119,7 @@ insertMiddle(int pos, int n){
     t->next = p->next;
     p->next = t;
 }
-
+```
 Time taken: O(n): Maximum time taken
 inserting at first node, O(1): Minimum time taken
 

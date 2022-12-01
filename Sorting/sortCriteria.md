@@ -1,5 +1,5 @@
-Different sorting algorithms:           {1,8}: comparision sort         {9, 11}: index based sort
-1. Bubble                               {1,3}: O(n^2)     {4, 7}: nlO(nlogn)       {9, 11}: O(n)   {8}: O(n^3/2)
+Different sorting algorithms:          ``` {1,8}: comparision sort         {9, 11}: index based sort
+1. Bubble                               {1,3}: O(n^2)     {4, 7}: nlO(nlogn)       {9, 11}: O(n)   {8}: O(n^3/2)```
 2. Insertion
 3. Selection
 4. Heap Sort

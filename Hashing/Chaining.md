@@ -5,7 +5,7 @@
 ## Procedure
 * eg: key space: (16,12,25,6,122,5,68,75)
 * Using modified hash function we insert keys See illustration below:
-https://cdn.discordapp.com/attachments/763862219649450025/1046704437357465653/image.png
+![](https://cdn.discordapp.com/attachments/763862219649450025/1046704437357465653/image.png)
 
 * Searching: 
  1) Select key to search and find modulus value of it

@@ -1,4 +1,5 @@
 ## Creating Nodes
+```
                         5
                     /      \
                  8            6
@@ -6,13 +7,13 @@
                     9       3
                   /   \
                 4       2
-
-
-
+```
 
 * Create root node and have both addresses null
+* ```
     [/][5][/]
       200
+  ```
 * Insert the address of root node in the queue                     [200][][][][][][][][]
 
 ---

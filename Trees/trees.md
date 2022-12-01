@@ -1,4 +1,5 @@
 ## Terminology
+```
   height                                        Level
     0                  A                        1
                     /   |   \   
@@ -9,7 +10,7 @@
     3           J       K        L              4
                 |              /   \
     4           M              N    O           5
-
+```
 *** Tree is a collection of nodes where one of the nodes is taken as root node and the rest are taken as disjoint subsets and each subset is a tree or sub-tree ***
 
 * Root- Very first node on the top 
@@ -40,4 +41,5 @@ NOTE: Level starts from 1 while height starts from 0.
 If degree of tree (number of children) is two, it is called a binary tree.
 We give names as left and right child
 NOTE: Every node can have {0, 1, 2} children
-examples of binary trees- https://media.discordapp.net/attachments/763862219649450025/1018876694565752862/unknown.png
+examples of binary trees- 
+![](https://media.discordapp.net/attachments/763862219649450025/1018876694565752862/unknown.png)
